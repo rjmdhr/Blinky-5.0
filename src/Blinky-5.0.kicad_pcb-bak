@@ -1,8 +1,8 @@
 (kicad_pcb (version 20171130) (host pcbnew "(5.1.9)-1")
 
   (general
-    (thickness 0.51)
-    (drawings 8)
+    (thickness 1.6)
+    (drawings 6)
     (tracks 0)
     (zones 0)
     (modules 8)
@@ -393,13 +393,11 @@
       (net 1 "Net-(BT1-Pad1)"))
   )
 
-  (gr_line (start 138.8 109.8) (end 159.8 109.8) (layer Edge.Cuts) (width 0.05) (tstamp 609342FA))
-  (gr_line (start 136.8 93.8) (end 136.8 107.8) (layer Edge.Cuts) (width 0.05) (tstamp 609342F9))
-  (gr_line (start 159.8 91.8) (end 138.8 91.8) (layer Edge.Cuts) (width 0.05) (tstamp 609342F8))
-  (gr_arc (start 138.8 107.8) (end 136.8 107.8) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 138.8 93.8) (end 138.8 91.8) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 159.8 91.8) (end 136.8 91.8) (layer Edge.Cuts) (width 0.05) (tstamp 609341F9))
   (gr_line (start 161.8 93.8) (end 161.8 107.8) (layer Edge.Cuts) (width 0.05) (tstamp 609341F8))
+  (gr_line (start 136.8 109.8) (end 159.8 109.8) (layer Edge.Cuts) (width 0.05) (tstamp 609341F7))
   (gr_arc (start 159.8 107.8) (end 159.8 109.8) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 159.8 93.8) (end 161.8 93.8) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 136.8 91.8) (end 136.8 109.8) (layer Edge.Cuts) (width 0.05))
 
 )
