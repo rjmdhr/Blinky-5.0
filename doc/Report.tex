@@ -78,7 +78,7 @@ Regardless of the values of resistors ${\mbox{R}}_{\mbox{A}}$ and ${\mbox{R}}_{\
 \noindent
 The data sheet provides the frequency $f$ and duty cycle $\delta$ of the square wave output, given the values of ${\mbox{R}}_{\mbox{A}}$, ${\mbox{R}}_{\mbox{B}}$, and C:
 \begin{align*}
-f &= \dfrac{1.44}{(R_A+R_B)\times{C}}
+f &= \dfrac{1.44}{(R_A+2R_B)\times{C}}
 \\
 \delta &= \frac{R_{A}+R_{B}}{R_{A}+2R_{B}}
 \end{align*}
@@ -150,6 +150,16 @@ For the PCB design, the 7555 timer was placed exactly in the middle of the circu
 
 % Actual frequency on Oscilloscope, soldered board
 \subsection{Results}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{images/measured-waveform.png}
+	\caption{The output frequency using the AD2.}
+	\label{fig4}
+\end{figure}
+
+An AD2 was used to measure the waveform after the parts were soldered. The output frequency measured around 1.36 HZ, a little lower than the calculated frequency.
+
 
 \subsection{What was Learned}
 \begin{compactitem}
